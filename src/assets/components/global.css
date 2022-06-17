@@ -4,38 +4,147 @@
   box-sizing: border-box;
 }
 :root {
+  font-family: 'Open Sans';
   font-size: 62.5%; /* 1rem = 10px */
-  --meio: #4aa95b;
-  --meio-corpo: #404040;
-  --lateral: #0e0e0e;
+  --meio-corpo: #0a0a0a;
+  --bg: #ab9e6e;
 }
 
 .wrapper {
   width: 90rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--meio-corpo);
 }
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 210px 1fr;
 }
 .meio {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: aliceblue;
+  font-size: 12px;
+  background-color: var(--bg);
 }
-p {
-  padding: 100px;
+.paragrafomeio {
+  padding: 5px 5px 40px 20px;
 }
 .experiencia,
-.educacao{
+.educacao {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: aliceblue;
+  margin-top: 260px;
+  font-size: 10px;
+}
+.titulopontilhado {
+  border-top: dotted;
+  border-bottom: dotted;
+  padding: 7px 20px;
+  border-width: 1px;
+}
+.pontilhadobottom {
+  border-bottom: dotted;
+  padding: 0 0 20px 0;
+  border-width: 1px;
+}
+.pontilhadoend {
+  border-top: dotted;
+  padding: 20px 0 0 0;
+  border-width: 1px;
+}
+.cardtexto {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+.cardeducacao {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.experiencia h3 {
+  margin: 40px 0 10px 100px;
+}
+.experiencia h4 {
+  margin: 0 0 0 100px;
+}
+.experiencia p {
+  margin: 0 0 0 100px;
 }
 
-.cargo{
+.educacao h3 {
+  margin: 40px 100px 10px 0px;
+}
+.educacao h4 {
+  margin: 0 100px 0 0;
+}
+.educacao p {
+  margin: 0 100px 0 0;
+}
+.cargo {
   margin-bottom: 10px;
 }
 
-.escrito{
-  margin-top: 200px;
+ul li {
+  list-style: none;
+}
+.listaesquerda img {
+  height: 10px;
+  margin-left: 10px;
+}
+.listaesquerda {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: flex-end;
+}
+.listadireita {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: flex-start;
+}
+.listadireita li img {
+  height: 10px;
+  margin-right: 10px;
+}
+.item {
+  margin-bottom: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.background {
+  width: 90rem;
+  position: absolute;
+}
+
+img.foto-cv {
+  position: absolute;
+  z-index: 1;
+  margin: 30px 576.5px auto auto;
+  height: 215px;
+  width: 200px;
+}
+img.foto-cv:hover {
+  transform: scale(1.1);
+  transition: 500ms;
+}
+
+.nomecv {
+  margin-top: 240px;
+}
+.footer {
+  margin-bottom: 300px;
 }
