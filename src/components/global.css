@@ -5,9 +5,12 @@
 }
 :root {
   font-family: 'Open Sans';
+  color: aliceblue;
   font-size: 62.5%; /* 1rem = 10px */
   --meio-corpo: #0a0a0a;
   --bg: #ab9e6e;
+  --dark-mode: #f31010;
+  --light-mode: #fefffe;
 }
 
 .wrapper {
@@ -15,6 +18,12 @@
   margin-left: auto;
   margin-right: auto;
   background-color: var(--meio-corpo);
+}
+#dark {
+  background-color: var(--meio-corpo);
+}
+#light {
+  background-color: var(--light-mode);
 }
 .grid {
   display: grid;
@@ -141,10 +150,47 @@ img.foto-cv:hover {
   transform: scale(1.1);
   transition: 500ms;
 }
+.avatar {
+  height: 100px;
+}
 
+article {
+  height: 300px;
+  padding: 20px 10px;
+  width: 360px;
+  border-color: var(--bg);
+  border-width: 1px;
+  box-shadow: 0 0 40px var(--bg);
+  margin-bottom: 100px;
+}
+.reviewtitle {
+  padding: 100px 0 50px 0;
+}
+
+.paragraforevie {
+  margin-bottom: 7px;
+}
+.reviewdiv,
+article,
+.paragraforeview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.paragraforeview {
+  padding: 5px 30px;
+}
+.next-btn,
+.prev-btn {
+  background: none;
+  border: none;
+  margin-left: 20px;
+}
+
+button img.btn {
+  height: 17px;
+}
 .nomecv {
   margin-top: 240px;
-}
-.footer {
-  margin-bottom: 300px;
 }
