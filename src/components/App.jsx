@@ -112,7 +112,7 @@ function App() {
               </div>
             </section>
             <section className="meio">
-              <img src="iago31.png" className="foto-cv" alt="foto-perfil" />
+              <img src="../../public/Iago31.png" className="foto-cv" alt="foto-perfil" />
               <h1 className="nomecv">IAGO PELICHEK BEZERRA</h1>
               <h4 className="cargo">DEV FRONT-END</h4>
               <div>
