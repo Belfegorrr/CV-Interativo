@@ -19,11 +19,7 @@ function App() {
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className="wrapper" id={theme}>
         <div>
-          <img
-            src="BG41.png"
-            className="background"
-            alt="background-header"
-          />
+          <img src="BG41.png" className="background" alt="background-header" />
         </div>
         <div className="escrito">
           <section className="grid">
@@ -31,34 +27,41 @@ function App() {
               <div>
                 <ThemeSwitcher toggleTheme={toggleTheme} />
               </div>
-              <h1 className="titulopontilhado">{t("EXPERIÊNCIA")}</h1>
+              <h1 className="titulopontilhado">{t('EXPERIÊNCIA')}</h1>
               <div className="cardtexto">
                 <h3>TAQUARI PAPÉIS</h3>
-                <h4>{t("Estagiário")}</h4>
+                <h4>{t('Estagiário')}</h4>
                 <h4>2021</h4>
                 <p>
-                  {t("Acompanhei a equipe de manutenção, ajudei com organização de estoque. Participei de diversos treinamentos sobre manutenção e combate à incêndio.")}
+                  {t(
+                    'Acompanhei a equipe de manutenção, ajudei com organização de estoque. Participei de diversos treinamentos sobre manutenção e combate à incêndio.'
+                  )}
                 </p>
               </div>
 
               <div className="cardtexto">
                 <h3>FSAE-del racing</h3>
-                <h4>{t("Colaborador")}</h4>
+                <h4>{t('Colaborador')}</h4>
                 <h4>2018</h4>
                 <p>
-                  {t("Competição de carros FSAE. Tecnologias ultilizadas: Excel, Ansys,SolidWorks e Matlab")}.
+                  {t(
+                    'Competição de carros FSAE. Tecnologias ultilizadas: Excel, Ansys,SolidWorks e Matlab'
+                  )}
+                  .
                 </p>
               </div>
 
               <div className="cardtexto">
                 <h3>UNESP-Ilha Solteira</h3>
-                <h4>{t("Universitário")}</h4>
+                <h4>{t('Universitário')}</h4>
                 <h4>2013</h4>
-                <p>{t("Projeto prático de programação em C++ com robô Lego.")}</p>
+                <p>
+                  {t('Projeto prático de programação em C++ com robô Lego.')}
+                </p>
               </div>
 
               <div>
-                <h1 className="titulopontilhadorecurso">{t("RECURSOS")}</h1>
+                <h1 className="titulopontilhadorecurso">{t('RECURSOS')}</h1>
                 <ul className="listaesquerda">
                   <li className="item">
                     Illustrator
@@ -112,20 +115,26 @@ function App() {
               </div>
             </section>
             <section className="meio">
-              <img src="../../public/Iago31.png" className="foto-cv" alt="foto-perfil" />
+              <img
+                src="../../public/static/Iago31.png"
+                className="foto-cv"
+                alt="foto-perfil"
+              />
               <h1 className="nomecv">IAGO PELICHEK BEZERRA</h1>
               <h4 className="cargo">DEV FRONT-END</h4>
               <div>
                 <LanguageSwitcher />
               </div>
               <p className="paragrafomeio">
-                {t("Olá, Sou desenvolvedor front-end, iniciei meus estudos na Alura com foco em: HTML, CSS e Javascript. Pretendo me desenvolver em React e futuramente me desenvolver para carreiras Full Stack. Me formarei em Engenharia Mecânica, porém pretendo me focar na profissão de desenvolvedor; usar toda a minhas experiências conquistadas com estágio, projeto de extensão e TCC para buscar minhas primeiras experiências como Front-end. Ao longo dessas experiências na engenharia, pude melhorar: atitude positiva; administrar a pressão; organização e resiliência.")}
+                {t(
+                  'Olá, Sou desenvolvedor front-end, iniciei meus estudos na Alura com foco em: HTML, CSS e Javascript. Pretendo me desenvolver em React e futuramente me desenvolver para carreiras Full Stack. Me formarei em Engenharia Mecânica, porém pretendo me focar na profissão de desenvolvedor; usar toda a minhas experiências conquistadas com estágio, projeto de extensão e TCC para buscar minhas primeiras experiências como Front-end. Ao longo dessas experiências na engenharia, pude melhorar: atitude positiva; administrar a pressão; organização e resiliência.'
+                )}
               </p>
 
-              <h1 className="pontilhadoend">{t("ENDEREÇO")}:</h1>
+              <h1 className="pontilhadoend">{t('ENDEREÇO')}:</h1>
               <p className="endereço">Floresta - Joinville/ SC</p>
 
-              <h1 className="telefone">{t("TELEFONE")}:</h1>
+              <h1 className="telefone">{t('TELEFONE')}:</h1>
               <p className="numero">(47) 98800-3197</p>
 
               <h1 className="telefone">E-MAIL:</h1>
@@ -144,33 +153,35 @@ function App() {
               </ul>
             </section>
             <section className="educacao">
-              <h1 className="titulopontilhado">{t("FORMAÇÃO")}</h1>
+              <h1 className="titulopontilhado">{t('FORMAÇÃO')}</h1>
 
               <div className="cardeducacao">
                 <h3>Alura</h3>
                 <h4>2022-2023</h4>
-                <p>{t("Curso Online focado em Front-end.")}</p>
+                <p>{t('Curso Online focado em Front-end.')}</p>
               </div>
 
               <div className="cardeducacao">
                 <h3>Rocketseat</h3>
                 <h4>2022-2023</h4>
-                <p>{t("Curso Online focado em Front-end.")}</p>
+                <p>{t('Curso Online focado em Front-end.')}</p>
               </div>
 
               <div className="cardeducacao">
                 <h3>UFSJ</h3>
-                <h4>{t("Engenharia Mecânica")}</h4>
+                <h4>{t('Engenharia Mecânica')}</h4>
                 <h4>2016-2022</h4>
               </div>
               <div className="cardeducacao">
-                <h3>{t("IDIOMAS")}</h3>
-                <h4>{t("Inglês - Intermediário")}</h4>
-                <h4>{t("Alemão - Básico")}</h4>
+                <h3>{t('IDIOMAS')}</h3>
+                <h4>{t('Inglês - Intermediário')}</h4>
+                <h4>{t('Alemão - Básico')}</h4>
               </div>
 
               <div>
-                <h1 className="titulopontilhadohabilidade">{t("HABILIDADES")}</h1>
+                <h1 className="titulopontilhadohabilidade">
+                  {t('HABILIDADES')}
+                </h1>
                 <ul className="listadireita">
                   <li className="item">
                     <img src="vazioB.png" alt="nivel5" />
@@ -178,7 +189,7 @@ function App() {
                     <img src="cheioB.png" alt="nivel3" />
                     <img src="cheioB.png" alt="nivel2" />
                     <img src="cheioB.png" alt="nivel1" />
-                    {t("Comunicação")}
+                    {t('Comunicação')}
                   </li>
                   <li className="item">
                     <img src="vazioB.png" alt="nivel4" />
@@ -186,7 +197,7 @@ function App() {
                     <img src="cheioB.png" alt="nivel3" />
                     <img src="cheioB.png" alt="nivel2" />
                     <img src="cheioB.png" alt="nivel1" />
-                    {t("Trabalho em equipe")}
+                    {t('Trabalho em equipe')}
                   </li>
                   <li className="item">
                     <img src="vazioB.png" alt="nivel4" />
@@ -194,7 +205,7 @@ function App() {
                     <img src="cheioB.png" alt="nivel3" />
                     <img src="cheioB.png" alt="nivel2" />
                     <img src="cheioB.png" alt="nivel1" />
-                    {t("Gerenciamento de projeto")}
+                    {t('Gerenciamento de projeto')}
                   </li>
                   <li className="item">
                     <img src="vazioB.png" alt="nivel5" />
@@ -202,7 +213,7 @@ function App() {
                     <img src="cheioB.png" alt="nivel3" />
                     <img src="cheioB.png" alt="nivel2" />
                     <img src="cheioB.png" alt="nivel1" />
-                    {t("Gerência de tempo")}
+                    {t('Gerência de tempo')}
                   </li>
                   <li className="item">
                     <img src="vazioB.png" alt="nivel4" />
@@ -210,7 +221,7 @@ function App() {
                     <img src="cheioB.png" alt="nivel3" />
                     <img src="cheioB.png" alt="nivel2" />
                     <img src="cheioB.png" alt="nivel1" />
-                    {t("Organização")}
+                    {t('Organização')}
                   </li>
                   <li className="item">
                     <img src="vazioB.png" alt="nivel5" />
@@ -218,7 +229,7 @@ function App() {
                     <img src="cheioB.png" alt="nivel3" />
                     <img src="cheioB.png" alt="nivel2" />
                     <img src="cheioB.png" alt="nivel1" />
-                    {t("Autonomia")}
+                    {t('Autonomia')}
                   </li>
                 </ul>
               </div>
