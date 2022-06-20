@@ -1,4 +1,8 @@
 import React from 'react'
+import '../../public/muje1.png'
+import '../../public/muje2.png'
+import '../../public/home1.png'
+import '../../public/home2.png'
 
 const Review = () => {
   const reviews = [
