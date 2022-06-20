@@ -20,7 +20,7 @@ function App() {
       <div className="wrapper" id={theme}>
         <div>
           <img
-            src="./BG41.png"
+            src="BG41.png"
             className="background"
             alt="background-header"
           />
@@ -62,57 +62,57 @@ function App() {
                 <ul className="listaesquerda">
                   <li className="item">
                     Illustrator
-                    <img src="./cheioB.png" alt="nivel1" />
-                    <img src="./cheioB.png" alt="nivel2" />
-                    <img src="./cheioB.png" alt="nivel3" />
-                    <img src="./vazioB.png" alt="nivel4" />
-                    <img src="./vazioB.png" alt="nivel5" />
+                    <img src="cheioB.png" alt="nivel1" />
+                    <img src="cheioB.png" alt="nivel2" />
+                    <img src="cheioB.png" alt="nivel3" />
+                    <img src="vazioB.png" alt="nivel4" />
+                    <img src="vazioB.png" alt="nivel5" />
                   </li>
                   <li className="item">
                     ReactJS
-                    <img src="./cheioB.png" alt="nivel1" />
-                    <img src="./cheioB.png" alt="nivel2" />
-                    <img src="./cheioB.png" alt="nivel3" />
-                    <img src="./meioB.png" alt="nivel4" />
-                    <img src="./vazioB.png" alt="nivel5" />
+                    <img src="cheioB.png" alt="nivel1" />
+                    <img src="cheioB.png" alt="nivel2" />
+                    <img src="cheioB.png" alt="nivel3" />
+                    <img src="meioB.png" alt="nivel4" />
+                    <img src="vazioB.png" alt="nivel5" />
                   </li>
                   <li className="item">
                     JavaScript
-                    <img src="./cheioB.png" alt="nivel1" />
-                    <img src="./cheioB.png" alt="nivel2" />
-                    <img src="./cheioB.png" alt="nivel3" />
-                    <img src="./meioB.png" alt="nivel4" />
-                    <img src="./vazioB.png" alt="nivel5" />
+                    <img src="cheioB.png" alt="nivel1" />
+                    <img src="cheioB.png" alt="nivel2" />
+                    <img src="cheioB.png" alt="nivel3" />
+                    <img src="meioB.png" alt="nivel4" />
+                    <img src="vazioB.png" alt="nivel5" />
                   </li>
                   <li className="item">
                     React Test Lib
-                    <img src="./cheioB.png" alt="nivel1" />
-                    <img src="./cheioB.png" alt="nivel2" />
-                    <img src="./vazioB.png" alt="nivel3" />
-                    <img src="./vazioB.png" alt="nivel4" />
-                    <img src="./vazioB.png" alt="nivel5" />
+                    <img src="cheioB.png" alt="nivel1" />
+                    <img src="cheioB.png" alt="nivel2" />
+                    <img src="vazioB.png" alt="nivel3" />
+                    <img src="vazioB.png" alt="nivel4" />
+                    <img src="vazioB.png" alt="nivel5" />
                   </li>
                   <li className="item">
                     SCRUM
-                    <img src="./cheioB.png" alt="nivel1" />
-                    <img src="./cheioB.png" alt="nivel2" />
-                    <img src="./cheioB.png" alt="nivel3" />
-                    <img src="./vazioB.png" alt="nivel4" />
-                    <img src="./vazioB.png" alt="nivel5" />
+                    <img src="cheioB.png" alt="nivel1" />
+                    <img src="cheioB.png" alt="nivel2" />
+                    <img src="cheioB.png" alt="nivel3" />
+                    <img src="vazioB.png" alt="nivel4" />
+                    <img src="vazioB.png" alt="nivel5" />
                   </li>
                   <li className="item">
                     PHP
-                    <img src="./cheioB.png" alt="nivel1" />
-                    <img src="./cheioB.png" alt="nivel2" />
-                    <img src="./vazioB.png" alt="nivel3" />
-                    <img src="./vazioB.png" alt="nivel4" />
-                    <img src="./vazioB.png" alt="nivel5" />
+                    <img src="cheioB.png" alt="nivel1" />
+                    <img src="cheioB.png" alt="nivel2" />
+                    <img src="vazioB.png" alt="nivel3" />
+                    <img src="vazioB.png" alt="nivel4" />
+                    <img src="vazioB.png" alt="nivel5" />
                   </li>
                 </ul>
               </div>
             </section>
             <section className="meio">
-              <img src="./iago31.png" className="foto-cv" alt="foto-perfil" />
+              <img src="iago31.png" className="foto-cv" alt="foto-perfil" />
               <h1 className="nomecv">IAGO PELICHEK BEZERRA</h1>
               <h4 className="cargo">DEV FRONT-END</h4>
               <div>
@@ -173,51 +173,51 @@ function App() {
                 <h1 className="titulopontilhadohabilidade">{t("HABILIDADES")}</h1>
                 <ul className="listadireita">
                   <li className="item">
-                    <img src="./vazioB.png" alt="nivel5" />
-                    <img src="./meiodB.png" alt="nivel4" />
-                    <img src="./cheioB.png" alt="nivel3" />
-                    <img src="./cheioB.png" alt="nivel2" />
-                    <img src="./cheioB.png" alt="nivel1" />
+                    <img src="vazioB.png" alt="nivel5" />
+                    <img src="meiodB.png" alt="nivel4" />
+                    <img src="cheioB.png" alt="nivel3" />
+                    <img src="cheioB.png" alt="nivel2" />
+                    <img src="cheioB.png" alt="nivel1" />
                     {t("Comunicação")}
                   </li>
                   <li className="item">
-                    <img src="./vazioB.png" alt="nivel4" />
-                    <img src="./vazioB.png" alt="nivel5" />
-                    <img src="./cheioB.png" alt="nivel3" />
-                    <img src="./cheioB.png" alt="nivel2" />
-                    <img src="./cheioB.png" alt="nivel1" />
+                    <img src="vazioB.png" alt="nivel4" />
+                    <img src="vazioB.png" alt="nivel5" />
+                    <img src="cheioB.png" alt="nivel3" />
+                    <img src="cheioB.png" alt="nivel2" />
+                    <img src="cheioB.png" alt="nivel1" />
                     {t("Trabalho em equipe")}
                   </li>
                   <li className="item">
-                    <img src="./vazioB.png" alt="nivel4" />
-                    <img src="./vazioB.png" alt="nivel5" />
-                    <img src="./cheioB.png" alt="nivel3" />
-                    <img src="./cheioB.png" alt="nivel2" />
-                    <img src="./cheioB.png" alt="nivel1" />
+                    <img src="vazioB.png" alt="nivel4" />
+                    <img src="vazioB.png" alt="nivel5" />
+                    <img src="cheioB.png" alt="nivel3" />
+                    <img src="cheioB.png" alt="nivel2" />
+                    <img src="cheioB.png" alt="nivel1" />
                     {t("Gerenciamento de projeto")}
                   </li>
                   <li className="item">
-                    <img src="./vazioB.png" alt="nivel5" />
-                    <img src="./meiodB.png" alt="nivel4" />
-                    <img src="./cheioB.png" alt="nivel3" />
-                    <img src="./cheioB.png" alt="nivel2" />
-                    <img src="./cheioB.png" alt="nivel1" />
+                    <img src="vazioB.png" alt="nivel5" />
+                    <img src="meiodB.png" alt="nivel4" />
+                    <img src="cheioB.png" alt="nivel3" />
+                    <img src="cheioB.png" alt="nivel2" />
+                    <img src="cheioB.png" alt="nivel1" />
                     {t("Gerência de tempo")}
                   </li>
                   <li className="item">
-                    <img src="./vazioB.png" alt="nivel4" />
-                    <img src="./vazioB.png" alt="nivel5" />
-                    <img src="./cheioB.png" alt="nivel3" />
-                    <img src="./cheioB.png" alt="nivel2" />
-                    <img src="./cheioB.png" alt="nivel1" />
+                    <img src="vazioB.png" alt="nivel4" />
+                    <img src="vazioB.png" alt="nivel5" />
+                    <img src="cheioB.png" alt="nivel3" />
+                    <img src="cheioB.png" alt="nivel2" />
+                    <img src="cheioB.png" alt="nivel1" />
                     {t("Organização")}
                   </li>
                   <li className="item">
-                    <img src="./vazioB.png" alt="nivel5" />
-                    <img src="./meiodB.png" alt="nivel4" />
-                    <img src="./cheioB.png" alt="nivel3" />
-                    <img src="./cheioB.png" alt="nivel2" />
-                    <img src="./cheioB.png" alt="nivel1" />
+                    <img src="vazioB.png" alt="nivel5" />
+                    <img src="meiodB.png" alt="nivel4" />
+                    <img src="cheioB.png" alt="nivel3" />
+                    <img src="cheioB.png" alt="nivel2" />
+                    <img src="cheioB.png" alt="nivel1" />
                     {t("Autonomia")}
                   </li>
                 </ul>

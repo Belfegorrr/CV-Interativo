@@ -137,7 +137,7 @@ img.foto-cv:hover {
   padding: 7px 20px;
   border-width: 1px;
 }
-.titulopontilhadohabilidade{
+.titulopontilhadohabilidade {
   font-weight: 700;
   font-size: 2rem;
   border-top: dotted;
@@ -147,7 +147,7 @@ img.foto-cv:hover {
   display: flex;
   justify-content: space-around;
 }
-.titulopontilhadorecurso{
+.titulopontilhadorecurso {
   display: flex;
   font-weight: 700;
   font-size: 2rem;
@@ -247,7 +247,8 @@ ul li {
 }
 .listaesquerda img {
   height: 15px;
-  margin-left: 10px;}
+  margin-left: 10px;
+}
 .item {
   font-size: 1.4rem;
   margin-bottom: 5px;
@@ -273,7 +274,7 @@ article {
   border-bottom: dotted;
   border-width: 1px;
 }
-.reviewname{
+.reviewname {
   font-size: 14px;
 }
 .paragraforevie {
@@ -291,7 +292,7 @@ article,
   font-size: 14px;
   padding: 5px 10px;
 }
-.reviewpro{
+.reviewpro {
   font-size: 12px;
 }
 .next-btn,
@@ -303,4 +304,8 @@ article,
 button img.btn {
   height: 17px;
 }
-/* ###################### FOOTER ################## */
+/* ###################### RESPONSIVO ################## */
+
+/* @media max(90rem,100%) {
+
+} */
