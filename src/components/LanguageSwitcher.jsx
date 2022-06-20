@@ -1,7 +1,5 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import br from '../../public/br.svg'
-import us from '../../public/us.svg'
 
 const languageOptions = [
   {
