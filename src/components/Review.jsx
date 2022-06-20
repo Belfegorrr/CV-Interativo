@@ -6,28 +6,28 @@ const Review = () => {
       id: 1,
       name: 'Susan Smith',
       job: 'UX/UI Designer',
-      img: '../../public/muje2.png',
+      img: 'https://s4.aconvert.com/convert/p3r68-cdx67/awp3n-5l7z1.svg',
       text: '"Lorem ipsum  Lorem ipsum Lorem ipsum  Lorem ipsum  Lorem ipsum  Lorem ipsum."'
     },
     {
       id: 2,
       name: 'Peter Jones',
       job: 'Web Developer',
-      img: '../../public/home1.png',
+      img: 'https://s4.aconvert.com/convert/p3r68-cdx67/advqo-ec6uq.svg',
       text: '"Ut enim Ut enim Ut enim Ut enim Ut enim Ut enim Ut enim Ut enim Ut enim Ut enim ."'
     },
     {
       id: 3,
       name: 'Anna Johnson',
       job: 'CEO',
-      img: '../../public/muje1.png',
+      img: 'https://s4.aconvert.com/convert/p3r68-cdx67/ak0jd-11zd5.svg',
       text: '"Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem."'
     },
     {
       id: 4,
       name: 'Bill Anderson',
       job: 'The Boss',
-      img: '../../public/home2.png',
+      img: 'https://s4.aconvert.com/convert/p3r68-cdx67/a2qkb-m3qtd.svg',
       text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."'
     }
   ]
@@ -79,7 +79,7 @@ const Review = () => {
         <div className="img-container">
           <img
             className="avatar"
-            src="../../public/muje1.png"
+            src="https://s4.aconvert.com/convert/p3r68-cdx67/awp3n-5l7z1.svg"
             alt=""
             id="person-img"
           />
@@ -98,14 +98,14 @@ const Review = () => {
           <button className="next-btn">
             <img
               className="btn"
-              src="esquerdaB.png"
+              src="https://s4.aconvert.com/convert/p3r68-cdx67/ajscd-u4q7a.svg"
               alt="Seta esquerda"
             />
           </button>
           <button className="prev-btn">
             <img
               className="btn"
-              src="direitoB.png"
+              src="https://s4.aconvert.com/convert/p3r68-cdx67/a3p5o-dnzmh.svg"
               alt="Seta direita"
             />
           </button>
