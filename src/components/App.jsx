@@ -116,7 +116,7 @@ function App() {
             </section>
             <section className="meio">
               <img
-                src="../../public/static/Iago31.png"
+                src="https://s4.aconvert.com/convert/p3r68-cdx67/au17h-pl41u.svg"
                 className="foto-cv"
                 alt="foto-perfil"
               />
