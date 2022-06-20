@@ -9,21 +9,82 @@
   font-size: 62.5%; /* 1rem = 10px */
   --meio-corpo: #0a0a0a;
   --bg: #ab9e6e;
-  --dark-mode: #f31010;
-  --light-mode: #fefffe;
+  --dark-mode: #100f42;
+  --light-mode: #4f504eb9;
 }
-
 .wrapper {
   width: 90rem;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--meio-corpo);
 }
+/* ######################### DARK ############################################## */
 #dark {
   background-color: var(--meio-corpo);
 }
+#dark button.buttondark {
+  visibility: hidden;
+}
+
+/* ######################### LIGHT ############################################## */
 #light {
   background-color: var(--light-mode);
+}
+
+#light button.buttonlight {
+  visibility: hidden;
+}
+#light .meio {
+  background-color: var(--dark-mode);
+}
+#light .button-flag {
+  border: none;
+  background-color: var(--dark-mode);
+}
+#light article {
+  box-shadow: 0 0 40px var(--dark-mode);
+}
+
+/* ########################### HEADER ##################### */
+.botaoestheme {
+  display: flex;
+}
+button.buttondark,
+button.buttonlight {
+  border: none;
+  background-color: var(--meio-corpo);
+}
+button.buttondark img,
+button.buttonlight img {
+  height: 20px;
+  width: 20px;
+}
+
+button.buttondark img {
+  position: absolute;
+  margin: -130px 0px 0px 700px;
+}
+button.buttonlight img {
+  position: absolute;
+  margin: -130px 0px 0px 700px;
+}
+.background {
+  width: 90rem;
+  position: absolute;
+}
+img.foto-cv {
+  position: absolute;
+  z-index: 1;
+  margin: 30px 576.5px auto auto;
+  height: 215px;
+  width: 200px;
+}
+img.foto-cv:hover {
+  transform: scale(1.1);
+  transition: 500ms;
+}
+/* ########################### MEIO ##################### */
+.nomecv {
+  margin-top: 240px;
 }
 .grid {
   display: grid;
@@ -40,6 +101,25 @@
 .paragrafomeio {
   padding: 5px 5px 40px 20px;
 }
+.cargo {
+  margin-bottom: 10px;
+}
+.laguage-switcher {
+  display: flex;
+  align-items: center;
+}
+.bandeiras {
+  border-radius: 30px;
+  border: none;
+  height: 20px;
+  width: 20px;
+}
+.button-flag {
+  margin-left: 20px;
+  border: none;
+  background-color: var(--bg);
+}
+/* ###################### LATERAL  ################## */
 .experiencia,
 .educacao {
   display: flex;
@@ -50,43 +130,91 @@
   font-size: 10px;
 }
 .titulopontilhado {
+  font-weight: 700;
+  font-size: 2rem;
   border-top: dotted;
   border-bottom: dotted;
   padding: 7px 20px;
   border-width: 1px;
 }
+.titulopontilhadohabilidade{
+  font-weight: 700;
+  font-size: 2rem;
+  border-top: dotted;
+  border-bottom: dotted;
+  padding: 7px 0px;
+  border-width: 1px;
+  display: flex;
+  justify-content: space-around;
+}
+.titulopontilhadorecurso{
+  display: flex;
+  font-weight: 700;
+  font-size: 2rem;
+  border-top: dotted;
+  border-bottom: dotted;
+  padding: 7px 0px;
+  border-width: 1px;
+  justify-content: space-around;
+}
 .pontilhadobottom {
+  font-size: 14px;
   border-bottom: dotted;
   padding: 0 0 20px 0;
   border-width: 1px;
+  margin-bottom: 40px;
 }
 .pontilhadoend {
+  font-size: 1.8rem;
   border-top: dotted;
-  padding: 20px 0 0 0;
+  padding: 20px 0 2px 0;
   border-width: 1px;
 }
+.endereço {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.telefone {
+  font-size: 1.8rem;
+  padding: 0 0 2px 0;
+}
+.numero {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+a img {
+  height: 50px;
+}
 .cardtexto {
+  font-size: 14px;
   display: flex;
   justify-content: right;
   flex-direction: column;
   align-items: flex-end;
   margin-bottom: 20px;
 }
+.cardtexto p {
+  font-size: 11px;
+}
 .cardeducacao {
+  font-size: 14px;
   display: flex;
   justify-content: left;
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 20px;
 }
+.cardeducacao p {
+  font-size: 11px;
+}
 .experiencia h3 {
-  margin: 40px 0 10px 100px;
+  margin: 40px 30px 10px 100px;
 }
 .experiencia h4 {
-  margin: 0 0 0 100px;
+  margin: 0 30px 0 100px;
 }
 .experiencia p {
-  margin: 0 0 0 100px;
+  margin: 0 30px 0 100px;
 }
 
 .educacao h3 {
@@ -98,16 +226,8 @@
 .educacao p {
   margin: 0 100px 0 0;
 }
-.cargo {
-  margin-bottom: 10px;
-}
-
 ul li {
   list-style: none;
-}
-.listaesquerda img {
-  height: 10px;
-  margin-left: 10px;
 }
 .listaesquerda {
   display: flex;
@@ -121,52 +241,41 @@ ul li {
   margin-top: 20px;
   align-items: flex-start;
 }
-.listadireita li img {
-  height: 10px;
+.listadireita img {
+  height: 15px;
   margin-right: 10px;
 }
+.listaesquerda img {
+  height: 15px;
+  margin-left: 10px;}
 .item {
+  font-size: 1.4rem;
   margin-bottom: 5px;
 }
-
-header {
-  display: flex;
-  justify-content: center;
-}
-
-.background {
-  width: 90rem;
-  position: absolute;
-}
-
-img.foto-cv {
-  position: absolute;
-  z-index: 1;
-  margin: 30px 576.5px auto auto;
-  height: 215px;
-  width: 200px;
-}
-img.foto-cv:hover {
-  transform: scale(1.1);
-  transition: 500ms;
-}
+/* ###################### COMENTÁRIO ################## */
 .avatar {
   height: 100px;
 }
-
 article {
-  height: 300px;
+  height: 350px;
   padding: 20px 10px;
-  width: 360px;
+  width: 450px;
   border-color: var(--bg);
   border-width: 1px;
   box-shadow: 0 0 40px var(--bg);
   margin-bottom: 100px;
 }
 .reviewtitle {
-  padding: 100px 0 50px 0;
+  font-size: 20px;
+  padding: 7px 20px;
+  margin: 30px 0;
+  border-top: dotted;
+  border-bottom: dotted;
+  border-width: 1px;
 }
-
+.reviewname{
+  font-size: 14px;
+}
 .paragraforevie {
   margin-bottom: 7px;
 }
@@ -179,7 +288,11 @@ article,
   margin-bottom: 30px;
 }
 .paragraforeview {
-  padding: 5px 30px;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+.reviewpro{
+  font-size: 12px;
 }
 .next-btn,
 .prev-btn {
@@ -187,10 +300,7 @@ article,
   border: none;
   margin-left: 20px;
 }
-
 button img.btn {
   height: 17px;
 }
-.nomecv {
-  margin-top: 240px;
-}
+/* ###################### FOOTER ################## */

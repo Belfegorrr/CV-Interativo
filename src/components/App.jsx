@@ -1,4 +1,4 @@
-import React, { useState, useEffect, createContext } from 'react'
+import React, { useState, createContext } from 'react'
 import { useTranslation } from 'react-i18next'
 import './global.css'
 import Review from './Review'
@@ -31,78 +31,82 @@ function App() {
               <div>
                 <ThemeSwitcher toggleTheme={toggleTheme} />
               </div>
-              <h1 className="titulopontilhado">EXPERIÊNCIA</h1>
+              <h1 className="titulopontilhado">{t("EXPERIÊNCIA")}</h1>
               <div className="cardtexto">
-                <h3>EMPRESA X</h3>
-                <h4>CEO</h4>
-                <h4>2011-2011</h4>
-                <p>Lorem il dsem </p>
+                <h3>TAQUARI PAPÉIS</h3>
+                <h4>{t("Estagiário")}</h4>
+                <h4>2021</h4>
+                <p>
+                  {t("Acompanhei a equipe de manutenção, ajudei com organização de estoque. Participei de diversos treinamentos sobre manutenção e combate à incêndio.")}
+                </p>
               </div>
 
               <div className="cardtexto">
-                <h3>EMPRESA X</h3>
-                <h4>CEO</h4>
-                <h4>2011-2011</h4>
-                <p>Lorem il dsem </p>
+                <h3>FSAE-del racing</h3>
+                <h4>{t("Colaborador")}</h4>
+                <h4>2018</h4>
+                <p>
+                  {t("Competição de carros FSAE. Tecnologias ultilizadas: Excel, Ansys,SolidWorks e Matlab")}.
+                </p>
               </div>
 
               <div className="cardtexto">
-                <h3>EMPRESA X</h3>
-                <h4>CEO</h4>
-                <h4>2011-2011</h4>
-                <p>Lorem il dsem </p>
+                <h3>UNESP-Ilha Solteira</h3>
+                <h4>{t("Universitário")}</h4>
+                <h4>2013</h4>
+                <p>{t("Projeto prático de programação em C++ com robô Lego.")}</p>
               </div>
 
               <div>
-                <h1 className="titulopontilhado">RECURSOS</h1>
+                <h1 className="titulopontilhadorecurso">{t("RECURSOS")}</h1>
                 <ul className="listaesquerda">
                   <li className="item">
                     Illustrator
-                    <img src="./cheio.png" alt="nivel1" />
-                    <img src="./cheio.png" alt="nivel2" />
-                    <img src="./cheio.png" alt="nivel3" />
-                    <img src="./vazio.png" alt="nivel4" />
-                    <img src="./vazio.png" alt="nivel5" />
+                    <img src="./cheioB.png" alt="nivel1" />
+                    <img src="./cheioB.png" alt="nivel2" />
+                    <img src="./cheioB.png" alt="nivel3" />
+                    <img src="./vazioB.png" alt="nivel4" />
+                    <img src="./vazioB.png" alt="nivel5" />
                   </li>
                   <li className="item">
                     ReactJS
-                    <img src="./cheio.png" alt="nivel1" />
-                    <img src="./cheio.png" alt="nivel2" />
-                    <img src="./cheio.png" alt="nivel3" />
-                    <img src="./meio.png" alt="nivel4" />
-                    <img src="./vazio.png" alt="nivel5" />
+                    <img src="./cheioB.png" alt="nivel1" />
+                    <img src="./cheioB.png" alt="nivel2" />
+                    <img src="./cheioB.png" alt="nivel3" />
+                    <img src="./meioB.png" alt="nivel4" />
+                    <img src="./vazioB.png" alt="nivel5" />
                   </li>
                   <li className="item">
                     JavaScript
-                    <img src="./cheio.png" alt="nivel1" />
-                    <img src="./cheio.png" alt="nivel2" />
-                    <img src="./cheio.png" alt="nivel3" />
-                    <img src="./meio.png" alt="nivel4" />
-                    <img src="./vazio.png" alt="nivel5" />
+                    <img src="./cheioB.png" alt="nivel1" />
+                    <img src="./cheioB.png" alt="nivel2" />
+                    <img src="./cheioB.png" alt="nivel3" />
+                    <img src="./meioB.png" alt="nivel4" />
+                    <img src="./vazioB.png" alt="nivel5" />
                   </li>
                   <li className="item">
                     React Test Lib
-                    <img src="./cheio.png" alt="nivel1" />
-                    <img src="./cheio.png" alt="nivel2" />
-                    <img src="./vazio.png" alt="nivel3" />
-                    <img src="./vazio.png" alt="nivel4" />
-                    <img src="./vazio.png" alt="nivel5" />
+                    <img src="./cheioB.png" alt="nivel1" />
+                    <img src="./cheioB.png" alt="nivel2" />
+                    <img src="./vazioB.png" alt="nivel3" />
+                    <img src="./vazioB.png" alt="nivel4" />
+                    <img src="./vazioB.png" alt="nivel5" />
                   </li>
                   <li className="item">
                     SCRUM
-                    <img src="./cheio.png" alt="nivel1" />
-                    <img src="./cheio.png" alt="nivel2" />
-                    <img src="./cheio.png" alt="nivel3" />
-                    <img src="./vazio.png" alt="nivel4" />
-                    <img src="./vazio.png" alt="nivel5" />
+                    <img src="./cheioB.png" alt="nivel1" />
+                    <img src="./cheioB.png" alt="nivel2" />
+                    <img src="./cheioB.png" alt="nivel3" />
+                    <img src="./vazioB.png" alt="nivel4" />
+                    <img src="./vazioB.png" alt="nivel5" />
                   </li>
                   <li className="item">
                     PHP
-                    <img src="./cheio.png" alt="nivel1" />
-                    <img src="./cheio.png" alt="nivel2" />
-                    <img src="./vazio.png" alt="nivel3" />
-                    <img src="./vazio.png" alt="nivel4" />
-                    <img src="./vazio.png" alt="nivel5" />
+                    <img src="./cheioB.png" alt="nivel1" />
+                    <img src="./cheioB.png" alt="nivel2" />
+                    <img src="./vazioB.png" alt="nivel3" />
+                    <img src="./vazioB.png" alt="nivel4" />
+                    <img src="./vazioB.png" alt="nivel5" />
                   </li>
                 </ul>
               </div>
@@ -111,105 +115,110 @@ function App() {
               <img src="./iago31.png" className="foto-cv" alt="foto-perfil" />
               <h1 className="nomecv">IAGO PELICHEK BEZERRA</h1>
               <h4 className="cargo">DEV FRONT-END</h4>
-              <p className="paragrafomeio">
-                Hi, As a developer, I had a brief experience with Mariano
-                supermarket. In this opportunity, I was hired as an intern and
-                had a lot of contact with C++, PHP, Laravel. I started my
-                studies at Alura, and I've been focused on HTML, CSS,
-                Javascript, Angular, React, and other front-end tools and
-                evolving myself in a Full Stack career. I will graduate in
-                Mechanical Engineering, but I will focus on the developer
-                profession; use all my experiences gained with internship,
-                extension project, and Final paper to seek my first experiences
-                as a Front-end.
-              </p>
-
-              <h1 className="pontilhadoend">ENDEREÇO:</h1>
-              <p>Floresta - Joinville/ SC</p>
-
-              <h1>TELEFONE:</h1>
-              <p>(47) 98800-3197</p>
-
-              <h1>E-MAIL:</h1>
-              <p className="pontilhadobottom">pelichek.iago@gmail.com</p>
-            </section>
-            <section className="educacao">
               <div>
                 <LanguageSwitcher />
               </div>
-              <h1 className="titulopontilhado">EDUCAÇÃO</h1>
+              <p className="paragrafomeio">
+                {t("Olá, Sou desenvolvedor front-end, iniciei meus estudos na Alura com foco em: HTML, CSS e Javascript. Pretendo me desenvolver em React e futuramente me desenvolver para carreiras Full Stack. Me formarei em Engenharia Mecânica, porém pretendo me focar na profissão de desenvolvedor; usar toda a minhas experiências conquistadas com estágio, projeto de extensão e TCC para buscar minhas primeiras experiências como Front-end. Ao longo dessas experiências na engenharia, pude melhorar: atitude positiva; administrar a pressão; organização e resiliência.")}
+              </p>
+
+              <h1 className="pontilhadoend">{t("ENDEREÇO")}:</h1>
+              <p className="endereço">Floresta - Joinville/ SC</p>
+
+              <h1 className="telefone">{t("TELEFONE")}:</h1>
+              <p className="numero">(47) 98800-3197</p>
+
+              <h1 className="telefone">E-MAIL:</h1>
+              <p className="pontilhadobottom">pelichek.iago@gmail.com</p>
+              <ul>
+                <li>
+                  <a href="https://github.com/Belfegorrr">
+                    <img src="github.png" alt="github logo" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/iago-pelichek-bezerra-246b671a4/">
+                    <img src="linkedin.png" alt="linkedin logo" />
+                  </a>
+                </li>
+              </ul>
+            </section>
+            <section className="educacao">
+              <h1 className="titulopontilhado">{t("FORMAÇÃO")}</h1>
 
               <div className="cardeducacao">
-                <h3>EMPRESA X</h3>
-                <h4>CEO</h4>
-                <h4>2011-2011</h4>
-                <p>Lorem il dsem </p>
+                <h3>Alura</h3>
+                <h4>2022-2023</h4>
+                <p>{t("Curso Online focado em Front-end.")}</p>
               </div>
 
               <div className="cardeducacao">
-                <h3>EMPRESA X</h3>
-                <h4>CEO</h4>
-                <h4>2011-2011</h4>
-                <p>Lorem il dsem </p>
+                <h3>Rocketseat</h3>
+                <h4>2022-2023</h4>
+                <p>{t("Curso Online focado em Front-end.")}</p>
               </div>
 
               <div className="cardeducacao">
-                <h3>EMPRESA X</h3>
-                <h4>CEO</h4>
-                <h4>2011-2011</h4>
-                <p>Lorem il dsem </p>
+                <h3>UFSJ</h3>
+                <h4>{t("Engenharia Mecânica")}</h4>
+                <h4>2016-2022</h4>
+              </div>
+              <div className="cardeducacao">
+                <h3>{t("IDIOMAS")}</h3>
+                <h4>{t("Inglês - Intermediário")}</h4>
+                <h4>{t("Alemão - Básico")}</h4>
               </div>
 
               <div>
-                <h1 className="titulopontilhado">HABILIDADES</h1>
+                <h1 className="titulopontilhadohabilidade">{t("HABILIDADES")}</h1>
                 <ul className="listadireita">
                   <li className="item">
-                    <img src="./vazio.png" alt="nivel5" />
-                    <img src="./meiod.png" alt="nivel4" />
-                    <img src="./cheio.png" alt="nivel3" />
-                    <img src="./cheio.png" alt="nivel2" />
-                    <img src="./cheio.png" alt="nivel1" />
-                    Comunicação
+                    <img src="./vazioB.png" alt="nivel5" />
+                    <img src="./meiodB.png" alt="nivel4" />
+                    <img src="./cheioB.png" alt="nivel3" />
+                    <img src="./cheioB.png" alt="nivel2" />
+                    <img src="./cheioB.png" alt="nivel1" />
+                    {t("Comunicação")}
                   </li>
                   <li className="item">
-                    <img src="./vazio.png" alt="nivel4" />
-                    <img src="./vazio.png" alt="nivel5" />
-                    <img src="./cheio.png" alt="nivel3" />
-                    <img src="./cheio.png" alt="nivel2" />
-                    <img src="./cheio.png" alt="nivel1" />
-                    Trabalho em equipe
+                    <img src="./vazioB.png" alt="nivel4" />
+                    <img src="./vazioB.png" alt="nivel5" />
+                    <img src="./cheioB.png" alt="nivel3" />
+                    <img src="./cheioB.png" alt="nivel2" />
+                    <img src="./cheioB.png" alt="nivel1" />
+                    {t("Trabalho em equipe")}
                   </li>
                   <li className="item">
-                    <img src="./vazio.png" alt="nivel4" />
-                    <img src="./vazio.png" alt="nivel5" />
-                    <img src="./cheio.png" alt="nivel3" />
-                    <img src="./cheio.png" alt="nivel2" />
-                    <img src="./cheio.png" alt="nivel1" />
-                    Gerenciamento de projeto
+                    <img src="./vazioB.png" alt="nivel4" />
+                    <img src="./vazioB.png" alt="nivel5" />
+                    <img src="./cheioB.png" alt="nivel3" />
+                    <img src="./cheioB.png" alt="nivel2" />
+                    <img src="./cheioB.png" alt="nivel1" />
+                    {t("Gerenciamento de projeto")}
                   </li>
                   <li className="item">
-                    <img src="./vazio.png" alt="nivel5" />
-                    <img src="./meiod.png" alt="nivel4" />
-                    <img src="./cheio.png" alt="nivel3" />
-                    <img src="./cheio.png" alt="nivel2" />
-                    <img src="./cheio.png" alt="nivel1" />
-                    Gerência de tempo
+                    <img src="./vazioB.png" alt="nivel5" />
+                    <img src="./meiodB.png" alt="nivel4" />
+                    <img src="./cheioB.png" alt="nivel3" />
+                    <img src="./cheioB.png" alt="nivel2" />
+                    <img src="./cheioB.png" alt="nivel1" />
+                    {t("Gerência de tempo")}
                   </li>
                   <li className="item">
-                    <img src="./vazio.png" alt="nivel4" />
-                    <img src="./vazio.png" alt="nivel5" />
-                    <img src="./cheio.png" alt="nivel3" />
-                    <img src="./cheio.png" alt="nivel2" />
-                    <img src="./cheio.png" alt="nivel1" />
-                    Organização
+                    <img src="./vazioB.png" alt="nivel4" />
+                    <img src="./vazioB.png" alt="nivel5" />
+                    <img src="./cheioB.png" alt="nivel3" />
+                    <img src="./cheioB.png" alt="nivel2" />
+                    <img src="./cheioB.png" alt="nivel1" />
+                    {t("Organização")}
                   </li>
                   <li className="item">
-                    <img src="./vazio.png" alt="nivel5" />
-                    <img src="./meiod.png" alt="nivel4" />
-                    <img src="./cheio.png" alt="nivel3" />
-                    <img src="./cheio.png" alt="nivel2" />
-                    <img src="./cheio.png" alt="nivel1" />
-                    Autonomia
+                    <img src="./vazioB.png" alt="nivel5" />
+                    <img src="./meiodB.png" alt="nivel4" />
+                    <img src="./cheioB.png" alt="nivel3" />
+                    <img src="./cheioB.png" alt="nivel2" />
+                    <img src="./cheioB.png" alt="nivel1" />
+                    {t("Autonomia")}
                   </li>
                 </ul>
               </div>

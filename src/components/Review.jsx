@@ -71,9 +71,9 @@ const Review = () => {
   }
 
   return (
-    <div className='reviewdiv'>
-      <div className='reviewtitle'>
-        <h2>Comentários</h2>
+    <div className="reviewdiv">
+      <div className="reviewtitle">
+        <h2>Review</h2>
       </div>
       <article className="review">
         <div className="img-container">
@@ -84,9 +84,11 @@ const Review = () => {
             id="person-img"
           />
         </div>
-        <h4 id="author">Sara Jones</h4>
-        <p  className='paragraforevie' id="job">UX Desingner</p>
-        <p  className='paragraforeview' id="info">
+        <h4 className='reviewname' id="author">Sara Jones</h4>
+        <p className="reviewpro" id="job">
+          UX Desingner
+        </p>
+        <p className="paragraforeview" id="info">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -94,10 +96,18 @@ const Review = () => {
         </p>
         <div className="button-container">
           <button className="next-btn">
-            <img className='btn' src="../../public/arrowe.png" alt="Seta esquerda" />
+            <img
+              className="btn"
+              src="esquerdaB.png"
+              alt="Seta esquerda"
+            />
           </button>
           <button className="prev-btn">
-            <img className='btn' src="../../public/arrowd.png" alt="Seta direita" />
+            <img
+              className="btn"
+              src="direitoB.png"
+              alt="Seta direita"
+            />
           </button>
         </div>
       </article>

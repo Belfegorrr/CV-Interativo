@@ -1,5 +1,28 @@
 {
   "translation": {
-    "selectYourLaguage": "Select your language"
+    "EXPERIÊNCIA": "EXPERIENCE",
+    "FORMAÇÃO": "EDUCATION",
+    "Estagiário": "Intern",
+    "ENDEREÇO": "ADRESS",
+    "TELEFONE": "FONE",
+    "Comunicação": "Comunication",
+    "Trabalho em equipe": "Team Work",
+    "Gerenciamento de projeto": "Project Manager",
+    "Gerência de tempo": "Time Manager",
+    "Organização": "Organization",
+    "Autonomia": "Autonomy",
+    "Acompanhei a equipe de manutenção, ajudei com organização de estoque. Participei de diversos treinamentos sobre manutenção e combate à incêndio.":"I followed the maintenance team, helped with stock organization. I participated in several trainings on maintenance and fire fighting.",
+    "Colaborador": "Assistent",
+    "Competição de carros FSAE. Tecnologias ultilizadas: Excel, Ansys,SolidWorks e Matlab": "FSAE car competition. Technologies used: Excel, Ansys, SolidWorks and Matlab",
+    "Universitário": "College Student",
+    "Projeto prático de programação em C++ com robô Lego.": "Practical C++ programming project with Lego robot.",
+    "RECURSOS": "DEVELOPER SKILL",
+    "HABILIDADES": "SKILLS",
+    "Curso Online focado em Front-end.": "Online course focused on Front-end.",
+    "IDIOMAS": "LANGUAGES",
+    "Engenharia Mecânica": "Mechanical Enginner",
+    "Inglês - Intermediário": "English - Intermediary",
+    "Alemão - Básico": "German - Basic",
+    "Olá, Sou desenvolvedor front-end, iniciei meus estudos na Alura com foco em: HTML, CSS e Javascript. Pretendo me desenvolver em React e futuramente me desenvolver para carreiras Full Stack. Me formarei em Engenharia Mecânica, porém pretendo me focar na profissão de desenvolvedor; usar toda a minhas experiências conquistadas com estágio, projeto de extensão e TCC para buscar minhas primeiras experiências como Front-end. Ao longo dessas experiências na engenharia, pude melhorar: atitude positiva; administrar a pressão; organização e resiliência." : "Hello, I'm a front-end developer, I started my studies at Alura with a focus on: HTML, CSS and Javascript. I intend to develop myself in React and in the future develop myself for Full Stack careers. I will graduate in Mechanical Engineering, but I intend to focus on the developer profession; use all my experiences gained with internship, extension project and TCC to seek my first experiences as a Front-end. Throughout these engineering experiences, I was able to improve: a positive attitude; manage pressure; organization and resilience."
   }
 }

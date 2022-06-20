@@ -1,5 +1,18 @@
 {
   "translation": {
-    "selectYourLaguage": "Selecione seu Idioma"
+    "EXPERIÊNCIA": "EXPERIÊNCIA",
+    "FORMAÇÃO": "FORMAÇÃO",
+    "Estágiario": "Estágiario",
+    "Acompanhei a equipe de manutenção, ajudei com organização de estoque. Participei de diversos treinamentos sobre manutenção e combate à incêndio.": "Acompanhei a equipe de manutenção, ajudei com organização de estoque. Participei de diversos treinamentos sobre manutenção e combate à incêndio.",
+    "Colaborador": "Colaborador",
+    "Competição de carros FSAE. Tecnologias ultilizadas: Excel, Ansys,SolidWorks e Matlab.": "Competição de carros FSAE. Tecnologias ultilizadas: Excel, Ansys,SolidWorks e Matlab.",
+    "Universitário": "Universitário",
+    "Projeto prático de programação em C++ com robô Lego.": "Projeto prático de programação em C++ com robô Lego.",
+    "Recursos": "Recursos",
+    "Habilidades": "Habilidades",
+    "Alemão": "Alemão",
+    "Inglês": "Inglês",
+    "Curso Online focado em Front-end.": "Curso Online focado em Front-end.",
+    "IDIOMAS": "IDIOMAS"
   }
 }
