@@ -4,8 +4,8 @@ import './global.css'
 import Review from './Review'
 import ThemeSwitcher from './ThemeSwitcher'
 import LanguageSwitcher from './LanguageSwitcher'
-import '../../public/static/BG41.svg'
-import "../../public/static/Iago31.svg"
+import BG41 from '../../public/static/BG41.png'
+import Iago31 from "../../public/static/Iago31.png"
 
 export const ThemeContext = createContext(null)
 
@@ -21,7 +21,7 @@ function App() {
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className="wrapper" id={theme}>
         <div>
-          <img src="../../public/static/BG41.svg" className="background" alt="background-header" />
+          <img src={BG41} className="background" alt="background-header" />
         </div>
         <div className="escrito">
           <section className="grid">
@@ -118,7 +118,7 @@ function App() {
             </section>
             <section className="meio">
               <img
-                src="../../public/static/Iago31.svg"
+                src={Iago31}
                 className="foto-cv"
                 alt="foto-perfil"
               />
