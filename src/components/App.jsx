@@ -19,7 +19,7 @@ function App() {
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className="wrapper" id={theme}>
         <div>
-          <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a68ou-x39ag.svg" className="background" alt="background-header" />
+          <img src="https://s4.aconvert.com/convert/p3r68-cdx67/asje3-phqez.svg" className="background" alt="background-header" />
         </div>
         <div className="escrito">
           <section className="grid">
@@ -65,58 +65,58 @@ function App() {
                 <ul className="listaesquerda">
                   <li className="item">
                     Photoshop
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel1" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel3" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel2" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel4" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel5" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel1" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel3" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel2" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel4" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel5" />
                   </li>
                   <li className="item">
                     ReactJS
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel1" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel2" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ajiem-lywn0.svg" alt="nivel3" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel4" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel5" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel1" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel2" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a8lg7-7gd7m.svg" alt="nivel3" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel4" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel5" />
                   </li>
                   <li className="item">
                     JavaScript
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel1" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel2" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel3" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel4" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel5" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel1" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel2" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel3" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel4" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel5" />
                   </li>
                   <li className="item">
                     React Test Lib
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel1" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel2" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel3" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel4" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel5" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel1" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel2" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel3" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel4" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel5" />
                   </li>
                   <li className="item">
                     SCRUM
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel1" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel2" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ajiem-lywn0.svg" alt="nivel3" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel4" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel5" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel1" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel2" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a8lg7-7gd7m.svg" alt="nivel3" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel4" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel5" />
                   </li>
                   <li className="item">
                     PHP
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel1" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel2" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel3" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel4" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel5" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel1" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel2" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel3" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel4" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel5" />
                   </li>
                 </ul>
               </div>
             </section>
             <section className="meio">
               <img
-                src="https://s4.aconvert.com/convert/p3r68-cdx67/au17h-pl41u.svg"
+                src="https://s4.aconvert.com/convert/p3r68-cdx67/aweh3-iwc16.svg"
                 className="foto-cv"
                 alt="foto-perfil"
               />
@@ -142,12 +142,12 @@ function App() {
               <ul>
                 <li>
                   <a href="https://github.com/Belfegorrr">
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a6xej-nspxe.svg" alt="github logo" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ax1t7-0oibd.svg" alt="github logo" />
                   </a>
                 </li>
                 <li>
                   <a href="https://www.linkedin.com/in/iago-pelichek-bezerra-246b671a4/">
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ankxu-djq62.svg" alt="linkedin logo" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/atrvl-1337z.svg" alt="linkedin logo" />
                   </a>
                 </li>
               </ul>
@@ -184,51 +184,51 @@ function App() {
                 </h1>
                 <ul className="listadireita">
                   <li className="item">
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel5" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aa0ta-cv4fw.svg" alt="nivel4" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel3" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel2" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel1" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel5" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aipjt-42hzb.svg" alt="nivel4" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel3" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel2" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel1" />
                     {t('Comunicação')}
                   </li>
                   <li className="item">
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel4" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel5" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel3" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel2" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel1" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel4" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel5" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel3" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel2" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel1" />
                     {t('Trabalho em equipe')}
                   </li>
                   <li className="item">
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel4" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel5" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel3" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel2" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel1" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel4" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel5" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel3" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel2" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel1" />
                     {t('Gerenciamento de projeto')}
                   </li>
                   <li className="item">
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel5" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aa0ta-cv4fw.svg" alt="nivel4" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel3" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel2" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel1" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel5" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aipjt-42hzb.svg" alt="nivel4" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel3" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel2" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel1" />
                     {t('Gerência de tempo')}
                   </li>
                   <li className="item">
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel4" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel5" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel3" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel2" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel1" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel4" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel5" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel3" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel2" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel1" />
                     {t('Organização')}
                   </li>
                   <li className="item">
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/a1ug2-clgzi.svg" alt="nivel5" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aa0ta-cv4fw.svg" alt="nivel4" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel3" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel2" />
-                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ahhu7-n5nqe.svg" alt="nivel1" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/ayk7g-3m5n5.svg" alt="nivel5" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aipjt-42hzb.svg" alt="nivel4" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel3" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel2" />
+                    <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aj083-6q35j.svg" alt="nivel1" />
                     {t('Autonomia')}
                   </li>
                 </ul>

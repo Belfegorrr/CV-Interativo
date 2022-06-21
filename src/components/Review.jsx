@@ -6,28 +6,28 @@ const Review = () => {
       id: 1,
       name: 'Susan Smith',
       job: 'UX/UI Designer',
-      img: 'https://s4.aconvert.com/convert/p3r68-cdx67/awp3n-5l7z1.svg',
+      img: 'https://s4.aconvert.com/convert/p3r68-cdx67/aigny-41fu7.svg',
       text: '"Lorem ipsum  Lorem ipsum Lorem ipsum  Lorem ipsum  Lorem ipsum  Lorem ipsum."'
     },
     {
       id: 2,
       name: 'Peter Jones',
       job: 'Web Developer',
-      img: 'https://s4.aconvert.com/convert/p3r68-cdx67/advqo-ec6uq.svg',
+      img: 'https://s4.aconvert.com/convert/p3r68-cdx67/a3s76-ewuhy.svg',
       text: '"Ut enim Ut enim Ut enim Ut enim Ut enim Ut enim Ut enim Ut enim Ut enim Ut enim ."'
     },
     {
       id: 3,
       name: 'Anna Johnson',
       job: 'CEO',
-      img: 'https://s4.aconvert.com/convert/p3r68-cdx67/ak0jd-11zd5.svg',
+      img: 'https://s4.aconvert.com/convert/p3r68-cdx67/a8s7u-y481t.svg',
       text: '"Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem."'
     },
     {
       id: 4,
       name: 'Bill Anderson',
       job: 'The Boss',
-      img: 'https://s4.aconvert.com/convert/p3r68-cdx67/a2qkb-m3qtd.svg',
+      img: 'https://s4.aconvert.com/convert/p3r68-cdx67/a2rt3-13zs8.svg',
       text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."'
     }
   ]
@@ -79,7 +79,7 @@ const Review = () => {
         <div className="img-container">
           <img
             className="avatar"
-            src="https://s4.aconvert.com/convert/p3r68-cdx67/awp3n-5l7z1.svg"
+            src="https://s4.aconvert.com/convert/p3r68-cdx67/aigny-41fu7.svg"
             alt=""
             id="person-img"
           />
@@ -98,14 +98,14 @@ const Review = () => {
           <button className="next-btn">
             <img
               className="btn"
-              src="https://s4.aconvert.com/convert/p3r68-cdx67/ajscd-u4q7a.svg"
+              src="https://s4.aconvert.com/convert/p3r68-cdx67/axxuv-8917h.svg"
               alt="Seta esquerda"
             />
           </button>
           <button className="prev-btn">
             <img
               className="btn"
-              src="https://s4.aconvert.com/convert/p3r68-cdx67/a3p5o-dnzmh.svg"
+              src="https://s4.aconvert.com/convert/p3r68-cdx67/aqgwq-b872n.svg"
               alt="Seta direita"
             />
           </button>
