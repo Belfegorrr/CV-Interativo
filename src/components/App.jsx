@@ -157,7 +157,7 @@ function App() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/iago-pelichek-bezerra-246b671a4/">
+                  <a href="https://www.linkedin.com/in/iago-fernandes-246b671a4/">
                     <img src={linkedin} alt="linkedin logo" />
                   </a>
                 </li>
